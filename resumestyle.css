@@ -1,0 +1,81 @@
+.name {
+    text-align: right;
+    font-style: italic;
+}
+.mainbox {
+    height: 1000px;
+    width: 800px;
+}
+.divclass {
+    text-align: right;
+}
+.underline {
+    color: rgb(11, 241, 203);
+}
+.education {
+   color: black;
+}
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+}
+.heading-left {
+    color: #87CEEB;
+}
+.phno {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #87CEEB;
+    flex: 33.33%;
+}
+.general {
+    height: 100%;
+    width: 100%;
+    background-color:grey;
+    /* background-image: url('images.jpeg' );
+    background-repeat: no-repeat; */
+}
+.tick {
+    height: 10px;
+    width: 10px;
+}
+.tabledata {
+    border: 30px;
+    display: contents;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'Avatar Name Name Name '
+      'three three main main right right'
+      'Basic Info Info Info';
+      
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.three {
+    margin-left: 10px;
+}
+.container-all {
+    width: 100%;
+    background-color: #ddd;
+}
+.aaa {
+    border-radius: 10%;
+}
+legend {
+
+    margin-left: 20px;
+    max-width: max-content;
+    max-height: max-content;
+}  
+.first {
+    margin-left: -310px;
+}
